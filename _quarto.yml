@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "nozimjon.github.io"
+  title: "Nozimjon"
   navbar:
     right:
       - about.qmd

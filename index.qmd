@@ -1,5 +1,5 @@
 ---
-title: "nozimjon.github.io"
+title: "Nozimjon Ortikov "
 listing:
   contents: posts
   sort: "date desc"
