@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Nozimjon Ortikov",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\nThis is a post with executable code.\n\n\n\n\n\n\nJul 11, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\nThis is the first post in a Quarto blog. Welcome!\n\n\n\n\n\n\nApr 11, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npost\n\n\n\n\nМатт Левине йирик крипто биржаси FTX ликвидлилик муаммо ҳақида жуда яхши пост қолдирибди. Унда ликвидилики ва тўловга лаёқатлилик тушунчалари ўртасидаги фарқ ажойиб тушунтирилган.\n\n\n\n\n\n\nNov 11, 2022\n\n\nNozimjon Ortikov\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\nThis is a post with executable code.\n\n\n\n\n\n\nJul 11, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\nThis is the first post in a Quarto blog. Welcome!\n\n\n\n\n\n\nApr 11, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -26,5 +26,12 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/solvency-vs-liquidity/index.html",
+    "href": "posts/solvency-vs-liquidity/index.html",
+    "title": "Crypto crash",
+    "section": "",
+    "text": "Матт Левине йирик крипто биржаси FTX ликвидлилик муаммо ҳақида жуда яхши пост қолдирибди. Унда ликвидилики ва тўловга лаёқатлилик тушунчалари ўртасидаги фарқ ажойиб тушунтирилган."
   }
 ]
