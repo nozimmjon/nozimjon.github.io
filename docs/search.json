@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Yangi post\n\n\n\n\n\n\n\npost\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nNozimjon Ortikov\n\n\n\n\n\n\n  \n\n\n\n\nCrypto crash\n\n\n\n\n\n\n\npost\n\n\n\n\n\n\n\n\n\n\n\nNov 11, 2022\n\n\nNozimjon Ortikov\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Home",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/solvency-vs-liquidity/index.html",
+    "href": "posts/solvency-vs-liquidity/index.html",
+    "title": "Crypto crash",
+    "section": "",
+    "text": "Матт Левине йирик крипто биржаси FTX ликвидлилик муаммо ҳақида жуда яхши пост қолдирибди. Унда ликвидилики ва тўловга лаёқатлилик тушунчалари ўртасидаги фарқ ажойиб тушунтирилган."
+  },
+  {
+    "objectID": "posts/yangi_post/index.html",
+    "href": "posts/yangi_post/index.html",
+    "title": "Yangi post",
+    "section": "",
+    "text": "yangi post"
+  }
+]

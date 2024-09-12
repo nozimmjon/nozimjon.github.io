@@ -1,0 +1,8 @@
+---
+title: "Yangi post"
+author: "Nozimjon Ortikov"
+date: today
+categories: [post]
+---
+
+yangi post
