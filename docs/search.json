@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "Yangi post\n\n\n\n\n\n\npost\n\n\n\n\n\n\n\n\n\nOct 1, 2024\n\n\nNozimjon Ortikov\n\n\n\n\n\n\n\n\n\n\n\n\nCrypto crash\n\n\n\n\n\n\npost\n\n\n\n\n\n\n\n\n\nNov 11, 2022\n\n\nNozimjon Ortikov\n\n\n\n\n\n\nNo matching items"
+    "text": "Importing Columns with Percentage Values\n\n\n\n\n\n\npost\n\n\n\n\n\n\n\n\n\nOct 10, 2024\n\n\nNozimjon Ortikov\n\n\n\n\n\n\n\n\n\n\n\n\nCrypto crash\n\n\n\n\n\n\npost\n\n\n\n\n\n\n\n\n\nNov 11, 2022\n\n\nNozimjon Ortikov\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -37,8 +37,29 @@
   {
     "objectID": "posts/yangi_post/index.html",
     "href": "posts/yangi_post/index.html",
-    "title": "Yangi post",
+    "title": "Importing Columns with Percentage Values",
     "section": "",
-    "text": "yangi post"
+    "text": "library(readxl)\nlibrary(scales)\nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "posts/yangi_post/index.html#r-notebook-importing-columns-with-percentage-values",
+    "href": "posts/yangi_post/index.html#r-notebook-importing-columns-with-percentage-values",
+    "title": "Importing Columns with Percentage Values",
+    "section": "",
+    "text": "library(readxl)\nlibrary(scales)\nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "posts/yangi_post/index.html#reading-the-data-as-it-is",
+    "href": "posts/yangi_post/index.html#reading-the-data-as-it-is",
+    "title": "Importing Columns with Percentage Values",
+    "section": "Reading the Data as It Is",
+    "text": "Reading the Data as It Is\n\ndata_as_it &lt;- read_excel(path = here::here(\"data\", \n                                     \"graphs_housing_prices_data.xlsx\"), \n                         skip = 1) %&gt;% \n  rename(date =\"Сана\",\n         growth_rate = \"Ўзгариш, й/й\")\n\ndata_as_it\n\n# A tibble: 32 × 2\n   date    growth_rate\n   &lt;chr&gt;         &lt;dbl&gt;\n 1 2022-02       0.019\n 2 2022-03      -0.014\n 3 2022-04       0.029\n 4 2022-05       0.034\n 5 2022-06       0.012\n 6 2022-07       0.012\n 7 2022-08       0.006\n 8 2022-09       0.025\n 9 2022-10       0.023\n10 2022-11       0.022\n# ℹ 22 more rows\n\n\nIn the output above, you can see that the values in the “growth_rate” column are imported as decimals rather than percentages. In some cases, it may be necessary to work with a column that displays these values as percentages."
+  },
+  {
+    "objectID": "posts/yangi_post/index.html#importing-columns-with-percentage-values",
+    "href": "posts/yangi_post/index.html#importing-columns-with-percentage-values",
+    "title": "Importing Columns with Percentage Values",
+    "section": "Importing Columns with Percentage Values",
+    "text": "Importing Columns with Percentage Values\nTo convert the decimal values into percentage format, we can modify our data import process. Let’s see how to do this.\n\ndata_with_percent &lt;- read_excel(path = here::here(\"data\", \n                                     \"graphs_housing_prices_data.xlsx\"), \n                         skip = 1) %&gt;% \n  rename(date =\"Сана\",\n         growth_rate = \"Ўзгариш, й/й\") %&gt;% \n  mutate(growth_rate_percent = percent(growth_rate))\n\n\ndata_with_percent\n\n# A tibble: 32 × 3\n   date    growth_rate growth_rate_percent\n   &lt;chr&gt;         &lt;dbl&gt; &lt;chr&gt;              \n 1 2022-02       0.019 1.90%              \n 2 2022-03      -0.014 -1.40%             \n 3 2022-04       0.029 2.90%              \n 4 2022-05       0.034 3.40%              \n 5 2022-06       0.012 1.20%              \n 6 2022-07       0.012 1.20%              \n 7 2022-08       0.006 0.60%              \n 8 2022-09       0.025 2.50%              \n 9 2022-10       0.023 2.30%              \n10 2022-11       0.022 2.20%              \n# ℹ 22 more rows\n\n\nNow, the growth_rate_percent column contains the percentage values derived from the original decimal data. This allows for easier interpretation and visualization of growth rates."
   }
 ]
