@@ -2,7 +2,7 @@
 title: "Importing Columns with Percentage Values"
 author: "Nozimjon Ortikov"
 date: today
-categories: [post]
+categories: [R notebook]
 execute: 
   warning: false
 ---
